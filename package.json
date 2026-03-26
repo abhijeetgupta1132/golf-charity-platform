@@ -1,0 +1,13 @@
+{
+  "name": "fairway-for-good",
+  "private": true,
+  "scripts": {
+    "dev": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "install:all": "cd frontend && npm install"
+  },
+  "dependencies": {
+    "stripe": "^14.18.0",
+    "@supabase/supabase-js": "^2.39.7"
+  }
+}
